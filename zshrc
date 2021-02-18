@@ -16,9 +16,10 @@ source $ZSH/oh-my-zsh.sh
 
 
 # PATHS
-# Safe paths
+# Add directories to search in when a command is called
+
+# Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-# ...
 
 
 

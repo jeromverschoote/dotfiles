@@ -1,6 +1,6 @@
-# Dotfiles
+# Dotfiles & Applications
 
-A repo for keeping my dotfiles neat and organized.
+A repo for keeping my dotfiles and applications neat and organized.
 
 ## Installation
 

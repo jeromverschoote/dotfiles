@@ -17,7 +17,7 @@ source $ZSH/oh-my-zsh.sh
 
 # PATHS
 # Safe paths
-
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 # ...
 
 
@@ -37,6 +37,7 @@ fi
 # Update or combine existing commands
 
 alias ls="ls -1AFGh"
+alias cat="bat"
 
 
 

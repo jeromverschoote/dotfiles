@@ -5,7 +5,6 @@
 - clean: ['~']
 
 - link:
-#  ~/.vim: vim
    ~/.zshrc: zshrc
    ~/.gitconfig: gitconfig
    ~/.functions: functions

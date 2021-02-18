@@ -11,7 +11,8 @@ source $ZSH/oh-my-zsh.sh
 # VARIABLES
 # Create variables
 
-# ...
+# Disable Gatekeeper for Homebrew
+export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 
 

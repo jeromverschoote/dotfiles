@@ -1,16 +1,29 @@
 # PLUGINS
+# Use plugins to skip manual setup
 
-# Oh My Zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="AtomOne"
 plugins=(git zsh-autosuggestions)
 source $ZSH/oh-my-zsh.sh
 
+
+
 # VARIABLES
+# Create variables
+
 # ...
 
 
+
+# PATHS
+# Safe paths
+
+# ...
+
+
+
 # OPTIONS
+# Tweak preferred options
 
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nano'
@@ -19,19 +32,16 @@ else
 fi
 
 
+
 # ALIASES
+# Update or combine existing commands
+
 alias ls="ls -1AFGh"
 
 
-# PROMPT
-# ...
-
-
-# PATHS
-# ...
-
 
 # FUNCTIONS
+# Create new commands
 
 function precmd() {
   # Execute before each command
@@ -54,6 +64,13 @@ function mkcd() {
 
   mkdir -p "$@" && cd "$_";
 }
+
+
+
+# PROMPT
+# Define how the terminal is formated
+
+# ...
 
 
 

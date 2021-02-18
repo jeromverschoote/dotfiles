@@ -17,6 +17,9 @@ $ ./install
 - zshrc
 - gitconfig
 - functions
+- vscode
+- oh-my-zsh
+- config
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)

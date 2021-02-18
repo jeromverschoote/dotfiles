@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "create-next-app": "^10.0.4",
+    "create-strapi-app": "^3.4.1",
+    "serve": "^11.3.2"
+  }
+}

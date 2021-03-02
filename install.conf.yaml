@@ -11,6 +11,7 @@
    ~/.vscode: vscode
    ~/.oh-my-zsh: oh-my-zsh
    ~/.config: config
+   ~/.npm: npm
 
 - create:
    - ~/Projects
